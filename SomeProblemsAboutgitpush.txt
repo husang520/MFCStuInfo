@@ -26,6 +26,20 @@ git remote add origin https://github.com/husang520/MFCStuInfo.git
 
 Last, use git push -u origin master
 
+There is another problem when you use git push origin master.
+
+fatal: unable to access 'https://github.com/husang520/MFCStuInfo.git/': OpenSSL SSL_read: 
+SSL_ERROR_SYSCALL, errno 0
+
+Then you should input this two command:
+//取消http代理
+git config --global --unset http.proxy
+//取消https代理 
+git config --global --unset https.proxy
+
+
+
+
 Then you finish the all step.
 
 You can read this blog for detail: https://blog.csdn.net/NHB456789/article/details/131596777
