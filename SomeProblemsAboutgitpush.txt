@@ -1,0 +1,36 @@
+Administrator@DESKTOP-9HASDSP MINGW64 /e/MFC/gitpush (master)
+$ git push -u origin master
+Enumerating objects: 32, done.
+Counting objects: 100% (32/32), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (31/31), done.
+Writing objects: 100% (32/32), 1.92 MiB | 714.00 KiB/s, done.
+Total 32 (delta 3), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (3/3), done.
+To https://github.com/husang520/MFCStuInfo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+
+If there have above information in gitbash, it means that you have git push successfully.
+
+
+
+Some git command:
+For local repository, you should use git init.
+Then use git add . Attention: there is a blank between add and .
+Then use git commit -m "first commit"
+For github repository, you should create a new repository. For local repository using.
+Then use git remote add origin your repository address example for use: 
+git remote add origin https://github.com/husang520/MFCStuInfo.git
+
+Last, use git push -u origin master
+
+Then you finish the all step.
+
+You can read this blog for detail: https://blog.csdn.net/NHB456789/article/details/131596777
+Using 方法二.
+ 
+ 
+ 
+ 
