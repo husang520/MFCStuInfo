@@ -44,7 +44,33 @@ Then you finish the all step.
 
 You can read this blog for detail: https://blog.csdn.net/NHB456789/article/details/131596777
 Using 方法二.
- 
+
+When I git push a new revised file of local repository, after I use git add and git commit -m "log", use git push origin master(it is no need for user to add -u like git push -u origin master for second push). There have some error:
+ git push -u origin master
+To https://github.com/husang520/unicomp.git
+ ! [rejected]        master -> master (fetch first)
+error: failed to push some refs to 'https://github.com/husang520/unicomp.git'
+hint: Updates were rejected because the remote contains work that you do
+hint: not have locally. This is usually caused by another repository pushing
+hint: to the same ref. You may want to first integrate the remote changes
+hint: (e.g., 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+
+This error can be resolve by this blog:
+https://blog.csdn.net/weixin_46872121/article/details/111404455
+
+First input git pull --rebase origin master (pull = fetch + merge) , then input git push origin master. The error can be solved.
+
+
+
+
+
+
+
+
+
+
  
  
  
