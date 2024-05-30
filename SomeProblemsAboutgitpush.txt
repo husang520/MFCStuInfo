@@ -62,6 +62,8 @@ https://blog.csdn.net/weixin_46872121/article/details/111404455
 
 First input git pull --rebase origin master (pull = fetch + merge) , then input git push origin master. The error can be solved.
 
+This blog can help me.
+https://blog.csdn.net/weixin_44223180/article/details/133059575
 
 
 
